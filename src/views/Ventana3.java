@@ -91,7 +91,7 @@ public class Ventana3 extends JPanel {
 
 			@Override
 			public String getDescription() {
-				return "Archivos de imagen *.jpg *.png *.gif";
+				return "fregona *.jpg *.png *.gif";
 			}
 
 			@Override
