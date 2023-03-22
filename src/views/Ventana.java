@@ -30,8 +30,6 @@ import java.util.List;
 import java.awt.event.ActionEvent;
 
 public class Ventana extends JPanel {
-
-	private JPanel contentPane;
 	private JTextField jtfEmail;
 	private JTextField jtfUsuario;
 	private JTextField jtfPassword;
@@ -56,6 +54,7 @@ public class Ventana extends JPanel {
 			}
 		});
 	}
+
 
 	/**
 	 * Create the frame.
@@ -308,7 +307,7 @@ public class Ventana extends JPanel {
 			}
 		}
 
-		if (!jtfPassword.getText().equals(jtfPassword.getText())) {
+		if (!jtfPassword.getText().equals(jtfRepeticion.getText())) {
 			JOptionPane.showMessageDialog(null, "Las contraseñas no coinciden");
 			return false;
 		}
